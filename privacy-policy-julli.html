@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de Confidentialité - Julli</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 { color: #00A86B; }
+        h2 { color: #0F6848; margin-top: 30px; }
+        .section { margin-bottom: 20px; }
+        .contact { background: #f5f5f5; padding: 15px; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <h1>🕌 Politique de Confidentialité - Julli</h1>
+    <p><strong>Dernière mise à jour :</strong> 18 février 2026</p>
+    <p><strong>Développeur :</strong> Smahn (Seydina Alhamine Ndiaye)</p>
+    <p><strong>Contact :</strong> seydinaalhaminendiaye24@gmail.com</p>
+
+    <div class="section">
+        <h2>1. Introduction</h2>
+        <p>
+            Julli est une application mobile gratuite de rappel des horaires de prière 
+            développée pour la communauté musulmane du Sénégal et de la diaspora. 
+            Nous respectons votre vie privée et nous engageons à protéger vos données personnelles.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>2. Données Collectées</h2>
+        <p>Julli collecte uniquement les données suivantes :</p>
+        
+        <h3>2.1 Localisation GPS</h3>
+        <ul>
+            <li><strong>Objectif :</strong> Détecter automatiquement votre ville pour afficher les horaires de prière précis</li>
+            <li><strong>Fréquence :</strong> Uniquement au premier lancement ou quand vous changez de ville</li>
+            <li><strong>Stockage :</strong> Stocké localement sur votre appareil (AsyncStorage)</li>
+            <li><strong>Partage :</strong> Aucun partage avec des tiers</li>
+        </ul>
+
+        <h3>2.2 Préférences Utilisateur</h3>
+        <ul>
+            <li>Ville sélectionnée</li>
+            <li>Muezzin préféré pour l'Adhan</li>
+            <li>Fond d'écran choisi</li>
+            <li>Activation/désactivation des notifications</li>
+        </ul>
+        <p>Ces données sont <strong>stockées uniquement sur votre appareil</strong> et ne sont jamais envoyées à nos serveurs.</p>
+    </div>
+
+    <div class="section">
+        <h2>3. Permissions Utilisées</h2>
+        
+        <h3>Android</h3>
+        <ul>
+            <li><strong>INTERNET</strong> : Récupérer les horaires de prière depuis l'API Aladhan</li>
+            <li><strong>ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION</strong> : Détection automatique de votre ville</li>
+            <li><strong>VIBRATE</strong> : Vibration lors des notifications de prière</li>
+            <li><strong>SCHEDULE_EXACT_ALARM</strong> : Planifier les rappels de prière à l'heure exacte</li>
+            <li><strong>RECEIVE_BOOT_COMPLETED</strong> : Réactiver les notifications après redémarrage</li>
+        </ul>
+
+        <h3>iOS</h3>
+        <ul>
+            <li><strong>NSLocationWhenInUseUsageDescription</strong> : Détection de votre ville</li>
+            <li><strong>NSUserNotificationsUsageDescription</strong> : Rappels avant les prières</li>
+            <li><strong>UIBackgroundModes (audio)</strong> : Jouer l'Adhan en arrière-plan</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>4. Services Tiers</h2>
+        <p>Julli utilise les services suivants :</p>
+        
+        <h3>4.1 API Aladhan (aladhan.com)</h3>
+        <ul>
+            <li><strong>Utilisation :</strong> Calcul des horaires de prière</li>
+            <li><strong>Données envoyées :</strong> Coordonnées GPS de votre ville (latitude/longitude)</li>
+            <li><strong>Politique :</strong> <a href="https://aladhan.com/privacy-policy">https://aladhan.com/privacy-policy</a></li>
+        </ul>
+
+        <h3>4.2 Expo / React Native</h3>
+        <ul>
+            <li><strong>Utilisation :</strong> Framework de développement</li>
+            <li><strong>Données :</strong> Aucune donnée personnelle collectée</li>
+        </ul>
+
+        <p><strong>Aucune publicité, aucun tracker, aucune analyse d'audience.</strong></p>
+    </div>
+
+    <div class="section">
+        <h2>5. Sécurité des Données</h2>
+        <p>
+            Toutes vos données sont stockées <strong>localement sur votre appareil</strong>. 
+            Nous n'avons accès à aucune de vos informations personnelles. 
+            Julli ne dispose pas de serveur backend et n'envoie aucune donnée utilisateur à des tiers.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>6. Vos Droits</h2>
+        <p>Vous pouvez à tout moment :</p>
+        <ul>
+            <li>Refuser la permission de localisation (l'app utilisera Dakar par défaut)</li>
+            <li>Désactiver les notifications dans les réglages de l'application</li>
+            <li>Supprimer toutes vos données en désinstallant l'application</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>7. Données des Enfants</h2>
+        <p>
+            Julli ne collecte sciemment aucune information personnelle auprès d'enfants de moins de 13 ans. 
+            L'application est conçue pour être utilisée par tous les âges sans collecte de données personnelles.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>8. Modifications</h2>
+        <p>
+            Nous pouvons mettre à jour cette politique de confidentialité. 
+            La version mise à jour sera publiée sur cette page avec la nouvelle date de "Dernière mise à jour".
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>9. Open Source</h2>
+        <p>
+            Julli est un projet open source. Le code source est disponible sur demande 
+            pour audit de sécurité et transparence.
+        </p>
+    </div>
+
+    <div class="section contact">
+        <h2>10. Contact</h2>
+        <p>Pour toute question concernant cette politique de confidentialité :</p>
+        <ul>
+            <li><strong>Email :</strong> seydinaalhaminendiaye24@gmail.com</li>
+            <li><strong>Développeur :</strong> Seydina Alhamine Ndiaye (Smahn)</li>
+        </ul>
+    </div>
+
+    <hr>
+    <p style="text-align: center; color: #888; font-size: 14px;">
+        © 2026 Julli - Tous droits réservés<br>
+        Application développée avec ❤️ pour la communauté musulmane du Sénégal
+    </p>
+</body>
+</html>
