@@ -101,7 +101,7 @@ Nous nous réservons le droit de mettre à jour cette politique de confidentiali
 Pour toute question concernant cette politique de confidentialité, vous pouvez nous contacter :
 
 **Développeur :** Seydina Mouhamadou Al Hamine NDIAYE  
-**Email :** oriontheroot@gmail.com  
+**Email :** seydinaalhaminendiaye24@gmail.com
 **Application :** Kourous — Tasbih Numérique
 
 ---
